@@ -3,6 +3,9 @@
 Cada que se saca un boto de la urna, se ingresa el número del candidato
 Cuando se terminan los votos se ingresa un cero
  */
+/**
+ * @author Ethan Yahel Sarricolea Cortes
+ */
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -58,8 +61,6 @@ public class App {
         for (Candidato candidato : lista) {
             porcent = ((float)
             candidato.getVotos() / (float)urna.getVotos());
-            // System.out.println(candidato.getVotos() + " / " + urna.getVotos() + " * " + 100);
-            // System.out.println(porcent);
             System.out.println(candidato.toString() + ((float)porcent*100) + "%");
         }
     }

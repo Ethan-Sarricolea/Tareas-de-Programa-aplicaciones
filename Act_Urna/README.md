@@ -7,6 +7,7 @@ Cuando se terminan los votos se ingresa un cero
 ## Solucion
 
 Clases:
-- Urna
-- Candidato
-- Voto
+- Urna: "almacena" los votos (solo la cantidad total)
+- Candidato: Contiene el id, nombre y votos de dicho candidato
+
+###### Sarricolea Cortés Ethan Yahel - Lis 401
